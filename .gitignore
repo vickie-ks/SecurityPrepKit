@@ -1,0 +1,12 @@
+# Ignore the directory where Jekyll builds the site:
+
+_site/
+Gemfile.lock
+
+.DS_Store
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+
+vendor/bundle/
+node_modules/
