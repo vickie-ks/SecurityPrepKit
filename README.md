@@ -7,9 +7,13 @@ Enhance your cybersecurity job interview preparation with us. Dive into comprehe
 
 ## Quick Navigation
 
-1. [**Cryptography**](topics/crypto.md): Explore fundamental and advanced concepts in cryptography, including symmetric and asymmetric encryption, hashing functions, and real-world application scenarios.
-
-2. [**Networking**](topics/networking.md): Delve into essential networking topics such as TCP/IP models, routing and switching, network security protocols, and common network attacks and defenses.
+1. [**Encryption and Authentication**](topics/encryption_auth.md)
+2. [**Network Level and Logging**](topics/network.md)
+3. [**OWASP Top 10, Pentesting and/or Web Applications**](topics/owasp.md)
+4. [**Databases**](topics/db.md)
+5. [**Tools and Games**](topics/tools_games.md)
+6. [**Programming and Code**](topics/programming.md)
+7. [**Compliance**](topics/compliance.md)
 
 ## Contact
 
