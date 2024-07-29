@@ -17,7 +17,7 @@ Enhance your cybersecurity job interview preparation with us. Dive into comprehe
 
 ## Contact
 
-<ul style="list-style: none; margin-left: 15px; padding: 0;">
+<ul class="list-style-none m-lg-2 p-0">
   <li><img src="https://img.icons8.com/ios-filled/16/000000/email.png" alt="Email"> <a href="mailto:vigneshrajan2022@example.com">vigneshrajan2022</a></li>
   <li><img src="https://img.icons8.com/ios-filled/16/000000/phone.png" alt="Phone"> <a href="tel:+13864568187">+1 386-456-8187</a></li>
   <li><img src="https://img.icons8.com/ios-filled/16/000000/github.png" alt="GitHub"> <a href="https://github.com/vickie-ks">vickie-ks</a></li>
@@ -25,6 +25,9 @@ Enhance your cybersecurity job interview preparation with us. Dive into comprehe
   <li><img src="https://img.icons8.com/ios-filled/16/000000/linkedin.png" alt="LinkedIn"> <a href="https://www.linkedin.com/in/vigneshwar-sundararajan-07a2a5185/">vigneshwar-sundararajan</a></li>
 </ul>
 
-<div style="display: flex; justify-content: flex-end; border-top: 1px solid #eaecef; padding-top: 10px;">
-  <span style="color: grey; font-style: italic;">This site is open source.</span>
-</div>
+## References
+
+- [Security Engineer Interview Questions](https://github.com/tadwhitaker/Security_Engineer_Interview_Questions/blob/master/security-interview-questions.md)
+
+<hr class="m-0">
+<em class="float-right text-gray-light py-md-2">This site is open source.</em>
