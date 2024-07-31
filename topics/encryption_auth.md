@@ -1,6 +1,6 @@
 ## Encryption and Authentication
 
-#### [1. What are common ports involving security, what are the risks and mitigations?]()
+### [1. What are common ports involving security, what are the risks and mitigations?]()
 
 The common ports involving security are Port 21(FTP), Port 22(SSH), Port 80(HTTP), Port 443 (HTTPS), Port 53(DNS), Port 25(SMTP).
 
@@ -16,11 +16,11 @@ DNS is like the phonebook of the internet but can be attacked with methods like 
 
 SMTP is crucial for sending emails but can be misused for spam and spoofing. Implementing SPF, DKIM, and DMARC can help verify emails and prevent misuse. Avoid open relay settings and use TLS to encrypt email data during transmission.
 
-#### [2. Which one for DNS?]()
+### [2. Which one for DNS?]()
 
 DNS, which acts like the internet's phonebook, can be targeted in several ways. Attackers can perform DNS amplification attacks to overload systems or poison the DNS cache to redirect users to malicious sites. Implementing DNSSEC (Domain Name System Security Extensions) can secure DNS queries and responses, making it harder for attackers to tamper with them. It's also good to use rate limiting to control the number of DNS queries your server processes, and always keep your DNS software up to date to protect against known vulnerabilities. Monitoring DNS traffic for unusual patterns can help detect and mitigate potential threats early.
 
-#### [3. Describe HTTPs and how it is used.]()
+### [3. Describe HTTPs and how it is used.]()
 
 HTTPS is used to keep your data safe when you browse websites. When you visit a website with HTTPS, the data you send and receive is encrypted. This means that personal information like passwords and payment details are protected from hackers.
 
@@ -30,7 +30,7 @@ After verifying the certificate, your browser creates a session key and encrypts
 
 Using this session key, all data exchanged between your browser and the server is encrypted. This means even if someone intercepts the data, they cannot read it without the session key. This way, HTTPS ensures that your browsing is secure and your data remains private.
 
-#### [4. What is the difference between HTTPS and SSL?]()
+### [4. What is the difference between HTTPS and SSL?]()
 
 **HTTPS (Hypertext Transfer Protocol Secure)** is a protocol used for secure communication over the internet. It is an extension of HTTP, adding a layer of security by encrypting the data exchanged between a user's browser and a web server. HTTPS ensures that the data transmitted is confidential and protected from eavesdroppers and tampering.
 
@@ -38,7 +38,7 @@ Using this session key, all data exchanged between your browser and the server i
 
 In summary, HTTPS is a protocol for secure communication, while SSL/TLS is the technology used to encrypt the data transmitted over HTTPS.
 
-#### [5. How does threat modeling work?]()
+### [5. How does threat modeling work?]()
 
 Threat modeling is a way to find and fix security problems in a system. First, you need to know what important things you need to protect, like sensitive data or key services.
 
@@ -56,4 +56,4 @@ Finally, put the protections in place and keep an eye on the system. Threat mode
 
 
 
-
+<link rel="stylesheet" type="text/css" href="{{ "/assets/css/dark-mode-override.css?v=" | append: site.github.build_revision | relative_url }}">

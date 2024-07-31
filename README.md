@@ -1,4 +1,4 @@
-# [SecurityPrepKit](https://vickie-ks.github.io/SecurityPrepKit)  [![SecurityPrepKit](https://img.shields.io/badge/GitHub-SecurityPrepKit-2366d6)](https://github.com/vickie-ks/SecurityPrepKit)
+# [SecurityPrepKit](https://vickie-ks.github.io/SecurityPrepKit) 
 
 Welcome to SecurityPrepKit! This resource is dedicated to preparing for interviews for Security Engineer roles or other related positions in the field of Cybersecurity. Whether you're a beginner or an experienced professional, these curated resources and questions aim to bolster your knowledge and confidence in tackling job interviews.
 
@@ -25,5 +25,8 @@ Enhance your cybersecurity job interview preparation with us. Dive into comprehe
 
 - [Security Engineer Interview Questions](https://github.com/tadwhitaker/Security_Engineer_Interview_Questions/blob/master/security-interview-questions.md)
 
-<hr class="m-0">
-<em class="float-right text-gray-light py-md-2">This site is open source.</em>
+<div class="border-gray-light border-top footer mt-5 pt-3 text-gray text-right">
+    <em class="float-right text-gray-light">This site is open source.</em>
+</div>
+
+<link rel="stylesheet" type="text/css" href="{{ "/assets/css/dark-mode-override.css?v=" | append: site.github.build_revision | relative_url }}">
