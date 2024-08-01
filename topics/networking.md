@@ -58,13 +58,14 @@ Finally, put the protections in place and keep an eye on the system. Threat mode
 
 A subnet, short for subnetwork, is a smaller network within a larger network. It divides a large network into smaller, more manageable segments. Each subnet has its own range of IP addresses and can communicate with other subnets within the larger network.
 
-Subnets are useful in security for several reasons. First, they help control and limit network traffic. By segmenting the network, you can reduce congestion and improve performance. Each subnet can have specific security policies and controls, making it easier to manage and secure different parts of the network.
+Subnets are useful in security for several reasons. 
+- They help control and limit network traffic. By segmenting the network, you can reduce congestion and improve performance. Each subnet can have specific security policies and controls, making it easier to manage and secure different parts of the network.
 
-Second, subnets can isolate sensitive data and resources. By placing sensitive systems in their own subnet, you limit access to only those who need it. This isolation helps protect against unauthorized access and can contain potential security breaches.
+- Subnets can isolate sensitive data and resources. By placing sensitive systems in their own subnet, you limit access to only those who need it. This isolation helps protect against unauthorized access and can contain potential security breaches.
 
-Third, subnets simplify monitoring and managing network security. With smaller segments, it is easier to detect and respond to suspicious activity. Network administrators can set up firewalls and access control lists (ACLs) specific to each subnet, enhancing security.
+- Subnets simplify monitoring and managing network security. With smaller segments, it is easier to detect and respond to suspicious activity. Network administrators can set up firewalls and access control lists (ACLs) specific to each subnet, enhancing security.
 
-Finally, subnets can improve fault tolerance and resilience. If one subnet is compromised or experiences an issue, the rest of the network can continue to function normally. This separation helps maintain overall network stability and security. 
+- Finally, subnets can improve fault tolerance and resilience. If one subnet is compromised or experiences an issue, the rest of the network can continue to function normally. This separation helps maintain overall network stability and security. 
 
 In summary, subnets make networks more manageable, improve performance, enhance security, and provide better isolation and control over different parts of the network.
 
