@@ -7,3 +7,9 @@
     color: #4493f8;
   }
 }
+
+@media (max-width: 768px) {
+  a, p {
+    font-size: 1.2em; /* Increase font size by 20% */
+  }
+}
