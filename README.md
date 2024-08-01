@@ -1,4 +1,4 @@
-# [SecurityPrepKit](https://vickie-ks.github.io/SecurityPrepKit) 
+# [SecurityPrepKit](https://github.com/vickie-ks/SecurityPrepKit) 
 
 Welcome to SecurityPrepKit! This resource is dedicated to preparing for interviews for Security Engineer roles or other related positions in the field of Cybersecurity. Whether you're a beginner or an experienced professional, these curated resources and questions aim to bolster your knowledge and confidence in tackling job interviews.
 
@@ -7,7 +7,7 @@ Enhance your cybersecurity job interview preparation with us. Dive into comprehe
 ## Quick Navigation
 
 1. [Encryption and Authentication](topics/encryption_auth.md)
-2. [Network Level and Logging](topics/network.md)
+2. [Network Level and Logging](topics/networking.md)
 3. [OWASP Top 10, Pentesting and/or Web Applications](topics/owasp.md)
 4. [Databases](topics/db.md)
 5. [Tools and Games](topics/tools_games.md)
