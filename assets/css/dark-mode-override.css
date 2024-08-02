@@ -2,9 +2,10 @@
   body {
     background-color: #0d1117;
     filter: hue-rotate(180deg) invert(90%);
-  }
-  a {
-    color: #4493f8;
+    a {
+      color: #4493f8;
+      text-underline-offset: 3px;
+    }
   }
 }
 

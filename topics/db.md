@@ -29,7 +29,7 @@ Make sure to configure the Postgres `pg_hba.conf` file properly. This file contr
 Finally, back up your database regularly. Regular backups ensure that you can recover your data in case of a security incident or accidental data loss. Having a reliable backup strategy is crucial for maintaining data integrity and availability.
 
 ### [3. Our DB was stolen/exfiltrated. It was secured with one round of sha256 with a static salt.]()
-- [What do we do now?]()
+ - #### [What do we do now?]()
 
     If your database was stolen and it used only one round of SHA-256 with a static salt for securing passwords, there are some important steps you need to take immediately.
 
@@ -43,7 +43,7 @@ Finally, back up your database regularly. Regular backups ensure that you can re
 
     Finally, review and update your data security policies. Make sure your team follows best practices for securing sensitive data and stays informed about the latest security measures. Regular training and updates are essential for preventing future breaches.
 
-- [Are we at risk?]()
+- ####  [Are we at risk?]()
 
     Yes, you are at risk if your database was secured with only one round of SHA-256 and a static salt. This method is not very strong for protecting passwords because attackers can use techniques like dictionary attacks or brute force attacks to crack them.
 
@@ -55,7 +55,7 @@ Finally, back up your database regularly. Regular backups ensure that you can re
 
     It's important to switch to a more secure password hashing method, like bcrypt or Argon2, which are designed to be slow and use a unique salt for each password. This makes it much harder for attackers to crack the passwords and reduces the risk of a successful attack.
 
-- [What do we change?]()
+- ####  [What do we change?]()
 
     You need to change how you secure your passwords in the database. Instead of using one round of SHA-256 with a static salt, switch to a more secure method like bcrypt, Argon2, or PBKDF2. These algorithms are designed for hashing passwords and include features that make them resistant to attacks, such as adding a unique salt to each password and using multiple rounds of hashing.
 
