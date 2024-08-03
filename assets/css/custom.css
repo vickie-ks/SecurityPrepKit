@@ -10,7 +10,9 @@
 }
 
 @media (max-width: 768px) {
-  a, p {
-    font-size: 1.2em; /* Increase font size by 20% */
+  #content {
+    a, p {
+      font-size: 1.2em; /* Increase font size by 20% */
+    }
   }
 }

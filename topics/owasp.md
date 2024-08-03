@@ -93,9 +93,3 @@ CORS, or Cross-Origin Resource Sharing, is a mechanism that allows controlled ac
 For instance, if a web application hosted on `https://myapp.com` needs to access resources from `https://api.example.com`, the server at `api.example.com` can use CORS headers to grant permission. This is useful for web applications that rely on APIs hosted on different domains, enabling them to function correctly while maintaining security.
 
 Together, the Same Origin Policy and CORS work to balance security and functionality on the web, ensuring that resources are protected while allowing necessary cross-origin interactions.
-
-
-<div class="border-gray-light border-top footer mt-5 pt-3 text-gray text-right">
-    <em class="float-right text-gray-light">This site is open source.</em>
-</div>
-<link rel="stylesheet" type="text/css" href="{{ "/assets/css/dark-mode-override.css?v=" | append: site.github.build_revision | relative_url }}">

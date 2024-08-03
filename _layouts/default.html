@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ site.title }}</title>
+  
+  {% seo %}
+  <link rel="stylesheet" type="text/css" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+  <link rel="stylesheet" type="text/css" href="{{ "/assets/css/custom.css?v=" | append: site.github.build_revision | relative_url }}">
+</head>
+<body>    
+  <div class="container-lg px-3 my-5 markdown-body">
+    <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
+    <span id="content">
+      {{ content }}
+    </span>
+    <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
+      This site is open source. <a href="https://github.com/vickie-ks/SecurityPrepKit" target="_blank">GitHub</a>.
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+  <script>anchors.add();</script>
+</body>
+</html>

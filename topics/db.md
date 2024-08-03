@@ -84,9 +84,4 @@ Then, there's `AVG()`, which calculates the average value of a numeric column. Y
 Finally, there's `GROUP BY`, which isn't an aggregate function by itself but is used with these functions to group rows that have the same values in specified columns into summary rows. For example, you can group sales data by region and then use `SUM()` to find the total sales in each region.
 
 These aggregate functions are essential tools in SQL for analyzing and summarizing data efficiently. They help extract meaningful insights from large datasets by performing calculations on the data.
-    
 
-<div class="border-gray-light border-top footer mt-5 pt-3 text-gray text-right">
-    <em class="float-right text-gray-light">This site is open source.</em>
-</div>
-<link rel="stylesheet" type="text/css" href="{{ "/assets/css/dark-mode-override.css?v=" | append: site.github.build_revision | relative_url }}">

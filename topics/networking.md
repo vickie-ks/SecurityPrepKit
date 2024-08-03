@@ -217,8 +217,3 @@ Finally, not keeping AWS environments updated can lead to security vulnerabiliti
 
 By addressing these vulnerabilities, you can significantly improve the security of your AWS environment and protect your data from potential threats.
 
-
-<div class="border-gray-light border-top footer mt-5 pt-3 text-gray text-right">
-    <em class="float-right text-gray-light">This site is open source.</em>
-</div>
-<link rel="stylesheet" type="text/css" href="{{ "/assets/css/dark-mode-override.css?v=" | append: site.github.build_revision | relative_url }}">

@@ -97,9 +97,3 @@ In the context of compliance, the OSI model can help organizations understand wh
 For instance, at the network layer, firewalls and intrusion detection systems can be used to monitor and control data flow. At the application layer, encryption and authentication mechanisms are essential for securing data exchanges and verifying user identities.
 
 By using the OSI model, organizations can systematically identify potential vulnerabilities and implement appropriate security measures at each layer, helping them comply with various security standards and regulations. It provides a structured approach to building secure and compliant network environments.
-
-
-<div class="border-gray-light border-top footer mt-5 pt-3 text-gray text-right">
-    <em class="float-right text-gray-light">This site is open source.</em>
-</div>
-<link rel="stylesheet" type="text/css" href="{{ "/assets/css/dark-mode-override.css?v=" | append: site.github.build_revision | relative_url }}">

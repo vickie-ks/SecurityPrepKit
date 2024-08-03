@@ -174,8 +174,3 @@ PFS is important because it protects your data from being exposed if a future br
 
 ### [17. Describe the difference between synchronous and asynchronous encryption.]()
 
-
-<div class="border-gray-light border-top footer mt-5 pt-3 text-gray text-right">
-    <em class="float-right text-gray-light">This site is open source.</em>
-</div>
-<link rel="stylesheet" type="text/css" href="{{ "/assets/css/dark-mode-override.css?v=" | append: site.github.build_revision | relative_url }}">
