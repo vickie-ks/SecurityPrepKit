@@ -1,6 +1,15 @@
-body a {
-  text-underline-offset: .2rem;
+body {
+  #main {
+    min-height: 80vh;
+  }
+  #footer {
+    margin-top: auto;
+  }
+  a {
+    text-underline-offset: .2rem;
+  }
 }
+
 
 @media (prefers-color-scheme: dark) {
   body {
@@ -13,7 +22,7 @@ body a {
 }
 
 @media (max-width: 768px) {
-  #content {
+  #main {
     a, p {
       font-size: 1.2em; /* Increase font size by 20% */
     }

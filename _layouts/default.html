@@ -14,10 +14,10 @@
 <body>    
   <div class="container-lg px-3 my-5 markdown-body">
     <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
-    <span id="content">
+    <span id="main" class="d-flex flex-column">
       {{ content }}
     </span>
-    <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
+    <div id="footer" class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
       This site is open source. <a href="https://github.com/vickie-ks/SecurityPrepKit" target="_blank">GitHub</a>.
     </div>
   </div>
