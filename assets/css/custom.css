@@ -1,15 +1,8 @@
 body {
-  #main {
-    min-height: 80vh;
-  }
-  #footer {
-    margin-top: auto;
-  }
   a {
-    text-underline-offset: .2rem;
+    text-underline-offset: 0.2rem;
   }
 }
-
 
 @media (prefers-color-scheme: dark) {
   body {
@@ -23,7 +16,9 @@ body {
 
 @media (max-width: 768px) {
   #main {
-    a, p {
+    h3 > a,
+    p,
+    li {
       font-size: 1.2em; /* Increase font size by 20% */
     }
   }

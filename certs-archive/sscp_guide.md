@@ -4,13 +4,20 @@ Welcome to the SSCP Examination Guide section of SecurityPrepKit! The Systems Se
 
 ### Key Areas Covered
 
-- [Security Operations and Administration]()
+- [Security Fundamentals]()
 - [Access Controls]()
-- [Risk Identification, Monitoring and Analysis]()
-- [Incident Response and Recovery]()
+- [Basic Networking and Communications]()
+- [Advanced Networking and Communications]()
+- [Attacks]()
+- [Malicious Code and Activity]()
+- [Risk, Response, Recovery]()
+- [Monitoring and Analysis]()
+- [Controls and Countermeasures]()
+- [Auditing and Management Processes]()
+- [Security Operations]()
+- [Security Administration and Planning]()
+- [Legal Issues]()
 - [Cryptography]()
-- [Network and Communications Security]()
-- [Systems and Application Security]()
 
 ### Study Resources
 
@@ -18,6 +25,16 @@ Welcome to the SSCP Examination Guide section of SecurityPrepKit! The Systems Se
 - [Official Practice Tests]()
 - [Official (ISC)² SSCP Study Guide]()
 - [Peer Discussions and Study Groups]()
+
+### VII Domains
+
+- Security Operations and Administration
+- Access Controls
+- Risk Identification, Monitoring and Analysis
+- Incident Response and Recovery
+- Cryptography
+- Network and Communications Security
+- Systems and Application Security
 
 ### Why This Guide?
 
