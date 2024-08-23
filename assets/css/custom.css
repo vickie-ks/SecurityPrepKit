@@ -16,10 +16,6 @@ body {
 
 @media (max-width: 768px) {
   #main {
-    h3 > a,
-    p,
-    li {
-      font-size: 1.2em; /* Increase font size by 20% */
-    }
+    font-size: 1.1em; /* Increase font size by 20% */
   }
 }
